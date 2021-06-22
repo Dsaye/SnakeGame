@@ -43,12 +43,12 @@ radial.addColorStop(0,'#34495e');
 radial.addColorStop(0.25, '#2c3e50');
 
 
-// window.onload=function() {
+ window.onload=function() {
  intervalID = setInterval(game,300);
 
 document.addEventListener("keydown",keyboard);
 
-// }
+}
 
 function game(){
 
