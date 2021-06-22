@@ -1,0 +1,20 @@
+html,
+body,
+.zone {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  .zone{
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .zone{
+    height: 600px;
+  }
+}
